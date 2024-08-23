@@ -1,0 +1,157 @@
+
+.cen{
+    z-index:-1;
+    /* background-color:black; */
+    color:white;
+    position:absolute;
+    top:0px;
+    left:220px;
+    bottom:0px;
+    right:220px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* align-items:center */
+    
+}
+.heading{
+    /* background-color:pink; */
+    font-size:50px;
+    font-weight:bold;
+    font-family:'Trebuchet MS', sans-serif;
+    display:inline-block;
+    margin-bottom:20px;
+    cursor:text;
+    
+
+}
+.small{
+    display:flex;
+    flex-direction:column;
+    /* background-color:rgb(63, 184, 180); */
+    padding-left:100px;
+    align-items:center;
+    margin-bottom:20px;
+    font-weight:medium;
+    cursor:text;
+    opacity:1;
+
+
+}
+.smalldesc{
+    /* background-color:red; */
+    font-size:30px;
+    font-family:'Trebuchet MS', sans-serif;
+    cursor:text;
+    width:750px;
+
+    
+}
+@media (max-width:1000px){
+    .small{
+        opacity:0;
+    }
+    .heading{
+        margin-bottom:-50px;
+    }
+    
+}
+.smalldesc1{
+    /* background-color:orange; */
+    font-size:30px;
+    font-family:'Trebuchet MS', sans-serif;
+    
+}
+.buttonstart{
+    /* background-color:blue; */
+    padding:4px;
+    background-color:white;
+    border:none;
+    border-radius:2px;
+    font-weight:bold;
+    font-size:25px;
+    width:200px;
+
+}
+.buttonstart:hover{
+    color:grey;
+}
+
+.footer{
+    color:grey;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color:rgba(0,0,0,0.9);
+    height:40px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-left:0px;
+}
+.fname{
+    margin-left:43px;
+}
+.fname1{
+    margin-left:43px;
+    background-color:rgba(0,0,0,0.9);
+    border:none;
+    color:grey;
+}
+
+.fnameaw{
+    
+    margin-left:40px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.fname2{
+    margin-left:40px;
+    object-fit:cover;
+    object-position:center;
+    width:25px;
+    height:25px;
+    border-radius:60px;
+    background-color:black;
+
+
+}
+.fname3{
+    margin-left:40px;
+    object-fit:cover;
+    object-position:center;
+    width:25px;
+    height:25px;
+    border-radius:0px;
+    background-color:black;
+
+
+}
+.fname:hover,.fname1:hover,.fname2:hover,.fname3:hover{
+    color:white;
+    cursor:pointer;
+}
+
+.bottom{
+    /* background-color:red; */
+    position:absolute;
+    bottom:70px;
+    left:0px;
+    margin-left:0px;
+    right:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+    animation:chan 25s infinite ease-in-out;
+}
+/* @keyframes chan{
+    0%{
+        .first{
+
+        }
+    }
+} */

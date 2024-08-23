@@ -1,0 +1,264 @@
+.header1{
+    /* margin-top:0px; */
+    
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    display:flex;
+    flex-direction:row;
+    background-color:rgba(0, 0, 0, 0.5);
+    height:50px;
+    padding-top:12px;
+    align-items:center;
+    justify-content:center;
+    
+
+
+}
+.blue{
+    cursor:pointer;
+    background-color:rgb(0,99,220);
+    width:8px;
+    height:8px;
+    border-radius:20px;
+    display:inline-block;
+    /* border:2px solid white; */
+    margin-left:4px;
+    margin-right:0px;
+    vertical-align:middle;
+}
+
+
+.logoname{
+
+    cursor:pointer;
+    margin-left:6px;
+    color:white;
+    font-weight:800;
+    font-size:24px;
+    font-family:Arial;
+    /* background-color: red;
+    color:black; */
+    /* margin-top:5px; */
+    display:inline-block;
+    vertical-align:middle;
+}
+.logo{
+    display:inline-block;
+    vertical-align:middle;
+    width:140px;
+    height:100px;
+    margin-left:20px;
+    /* background-color:rgb(0,99,220); */
+    flex-shrink:0;
+    margin-top:50px;
+
+
+}
+
+.pink{
+    cursor:pointer;
+    background-color:rgb(255,0,132);
+    width:8px;
+    height:8px;
+    margin-left:-1px;
+    margin-right:0px;
+    border-radius:20px;
+    display:inline-block;
+    /* border:2px solid white; */
+    vertical-align:middle;
+}
+
+.middle{
+    flex:1;
+    display:grid;
+    grid-template-columns: 60px 1fr; 
+    align-items: center;
+    cursor:pointer;
+
+
+    /* grid-template-columns:100px 1fr; */
+
+    z-index:3;
+    margin-right:100px;
+    height:40px; 
+    opacity:0.6;
+    margin-left:80px;
+    opacity:0.8;
+    /* border-radius:px; */
+    /* background-color:red; */
+
+    /* display:inline-block; */
+
+}
+
+@media (max-width:800px){
+    .middle{
+        opacity:0;
+    }
+}
+.inp{
+    cursor:text;
+    vertical-align:top;
+    
+    background-color:white;
+    width:99.4%;
+    height:30.6px;
+    margin-left:-1px;
+    /* background-color:red; */
+    border:none;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    z-index:100;
+    /* display:inline-block; */
+
+    /* width:900px; */
+    /* display:inline-block; */
+    /* height:30px; */
+    /* vertical-align:top; */
+
+
+
+
+
+    /* padding-left:6px;
+    padding-top:7px;
+    justify-content: center; */
+
+}
+.search-image{
+
+    vertical-align:top;
+    /* background-color:red; */
+    border:none;
+    width:60px;
+    height:32.6px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    cursor:pointer;
+
+
+    
+    /* vertical-align:middle; */
+    /* display:inline-block; */
+/*
+    padding-bottom:3px;
+    margin-left:5px;
+    padding-top:1px; */
+
+
+    /* background-color: red; */
+
+
+    
+
+}
+.simg{
+
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    display:inline-block;
+}
+
+
+
+.right{
+    display:flex;
+    flex-direction:row;
+    /* grid-template-columns:1fr 1fr; */
+    align-items:center;
+    justify-content:center;
+    justify-content:space-between;
+    margin-left:10px;
+    /* background-color:red; */
+    width:150px;
+
+    margin-right:60px;
+    
+}
+/* .sign{
+    background-color:white;
+    
+} */
+/* .log{
+    background-color:blue;
+
+} */
+.logbutton,.signbutton{
+    padding:8px 12px;
+    width:90px;
+    cursor:pointer;
+    
+
+
+}
+.signbutton{
+    background-color:white;
+    border:none;
+    border-radius:4px;
+    font-weight:bold;
+    font-size:16px;
+    opacity:1;
+    transition:0.2s opacity;
+
+}
+.signbutton:hover{
+    color:grey;
+}
+@media (max-width:800px){
+    .signbutton{
+        opacity:0;
+    
+    }
+  
+}
+.logbutton{
+    background-color:rgba(255,255,255,0);
+    border:none;
+    opacity:1;
+    color:white;
+    border-radius:4px;
+    font-size:16px;
+}
+.search1main{
+    width:50px;
+    height:50px;
+    border:none;
+
+    margin-right: -100px;
+    
+    margin-top:8px;
+    opacity:0;
+    transition:0.2s opacity;
+
+    /* background-color:pink; */
+
+}
+.search1{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    object-position:center;
+    border-radius:100px;
+}
+.search1main button{
+    background-color:rgba(0,0,0,0);
+    border:none;
+
+}
+@media (max-width:800px){
+    .logbutton{
+        background-color:rgba(0,0,0,0);
+        color:white;
+        border:2px solid white;
+        border-radius:0px;
+        margin-left:100px;
+        transition:0.5s opacity;
+    }
+    .search1main{
+    opacity:1;
+    }
+    
+}

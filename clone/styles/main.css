@@ -1,0 +1,56 @@
+body{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    height:100vh;
+    width:100%;
+    cursor:context-menu;
+    /* height:500vh; */
+
+}
+
+.bg-image{
+    position:relative;
+
+    background-image: url("dog.jpg");
+    z-index:1;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    overflow:hidden;
+
+    /* background-attachment:fixed; */
+    height:100%;
+    width:100%;
+    animation:change 30s infinite ease-in;
+    
+    /* background-repeat:no-repeat; */
+    /* background-position:top -390px left; */
+     /* width:1500px;
+    height:800px;  */
+
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    font-family:Open+Sans,Arial;
+    /* background-color:red; */
+}
+
+
+@keyframes change{
+    20%{
+        background-image:url("image3.jpg");
+    }
+    40%{
+        background-image:url("image2.jpg");
+    }
+    60%{
+        background-image:url("image4.jpg");
+    }
+    80%{
+        background-image:url("image5.jpg");
+    }
+}

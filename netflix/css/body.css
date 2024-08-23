@@ -1,0 +1,64 @@
+body{
+    opacity:1;
+    margin:0px;
+    height:500vh;
+    color:white;
+    /* background-color:black; */
+}
+
+
+
+
+/* .bag{
+    background-image:url("../images/background_image_netflix.jpg");
+    background-position:center;
+    background-size:cover;
+    height:100%;
+    opacity:0.25; 
+
+} */
+ /* when u write this it is applied to the whole file and for text also to avoid that
+ we will use PSEUDO-ELEMENTS 
+ ::before
+ ::after::selection
+ ::first-line */
+
+
+ .bag {
+    position:relative;
+    height:20%;
+
+
+
+ }
+ /* &::before can also be used note that .bag:: no space betwween bag and colon */
+ .bag::before{
+    content:'';
+    position:absolute;
+
+    background-image:url("../images/background_image_netflix.jpg");
+    background-position:center;
+    background-size:cover;
+    /* background-repeat:no-repeat; */
+    z-index:1;
+    top:0px;
+    right:0px;
+    bottom:2px;
+    left:0px;
+
+    opacity:0.9;
+
+
+
+
+ }
+ .bag1{
+    position:relative;
+    background-color:rgba(0,0,0,0.6);
+    z-index:2;
+    height:100%;
+    width:100%;
+    
+ }
+
+

@@ -1,0 +1,66 @@
+.header{
+    display:flex; 
+    flex-direction:row;
+    background-color:rgba(0,0,0,0);
+    justify-content:space-between;
+    align-items:center;
+    height:60px;
+
+
+
+}
+.logoo{
+    margin-top:20px;
+
+   margin-left:10px; 
+    
+}
+#one{
+
+}
+
+.right{
+    margin-top:20px;
+
+    display:flex;
+    flex-direction:row;
+    margin-right:20px;
+    
+}
+#two{
+
+    margin-right:10px;
+}
+.two-text{
+    height:25px;
+    background-color:rgba(0,0,0,0);
+    /* border-style:solid; */
+    border:none;
+    border:01px solid rgb(121, 120, 120);
+    border-radius:3px;
+    color:white;
+    font-weight:bold;
+    padding-left:10px;
+
+
+}
+.two-text::placeholder{
+    color:white;
+
+}
+#three{
+
+}
+#three-text{
+
+    color:white;
+    background-color:red;
+    padding:8px;
+    padding-left:14px;
+    padding-right:14px;
+    border-radius:3px;
+    border:none;
+
+
+
+}
